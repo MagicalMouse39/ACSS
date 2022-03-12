@@ -1,3 +1,14 @@
+; Created by Magical
+;
+; Compile this program with:
+; nasm -f elf64 -o server.o server.asm
+;
+; Link the ELF with:
+; ld -o server server.o
+;
+; Run the program with:
+; ./server
+
 BITS 64
 
 ; Declare sockaddr_in struct template
